@@ -9,7 +9,7 @@ unsigned char sound = 0x00; //ADC0
 unsigned char y = 0x00; //ADC1
 unsigned char count = 0;
 
-
+//my house says HI
 void ADC_init() {
 	DDRA=0x0;			// Make ADC port as input
 	ADCSRA = 0x87;			//Enable ADC, fr/128  
